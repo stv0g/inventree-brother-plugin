@@ -32,7 +32,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
 
     install_requires=[
-        'brother-ql-inventree>=1.1',
+        'brother-ql-inventree @ git+https://github.com/AlexanderS/brother_ql-inventree.git@missing-pt-lables',
     ],
 
     setup_requires=[
